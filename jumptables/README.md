@@ -22,7 +22,7 @@ The exercise consists of three parts:
 ## Details
 
 ### Input
-- See task 1
+- See task 1 and 2
 
 ### Output
-- No outputs
+- None

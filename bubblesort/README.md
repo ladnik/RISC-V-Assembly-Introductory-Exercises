@@ -13,3 +13,4 @@ A description of the algorithm can be found [here](https://en.wikipedia.org/wiki
 - `a1`: Length of array
 
 ### Output
+- None

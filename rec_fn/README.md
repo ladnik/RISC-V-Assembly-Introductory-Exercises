@@ -1,20 +1,17 @@
-# Recursive Function F_n
+# Recursive Function
 
 ## Objective
-Implement a recursive assembly function that calculates a specific sequence.
+Implement a recursive assembly function that calculates the given sequence.
 
-## Definition of the Sequence F_n
-- `F_0 = 3`
-- `F_1 = 5`
-- For `n > 1`: `F_n = n + F_n-2 * 5`
+The sequence is defined as follows:
+- $F_0 = 3$
+- $F_1 = 5$
+- For $n > 1$: $F_n = n + 5 \cdot F_{n-2} $
 
 ## Details
 
 ### Input
-- `n`: the index of the sequence.
+- `a0`: Index of the element in the sequence to compute
 
 ### Output
-- The value of `F_n`.
-
-### Requirements
-- Use recursion to compute and return the value of `F_n`.
+- `a0`: The value of the specified element

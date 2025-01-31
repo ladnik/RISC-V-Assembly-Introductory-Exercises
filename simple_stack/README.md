@@ -11,7 +11,7 @@ Implement a stack data structure in assembly with basic operations like Push and
 ## Details
 
 ### Input
-- `a0`: 0 for Push, 1 for Pop.
+- `a0`: `0` for Push, `1` for Pop.
 - `a1`: The value for Push, if applicable.
 
 ### Output

@@ -2,7 +2,7 @@
 
 ## Objective
 Develop an assembly function that converts a binary number (as an array) into its decimal representation.  
-e.g., Input 1011₂ -> 0b1011 = 11
+e.g. with input 1011₂: 0b1011 = 11
 
 ## Details
 

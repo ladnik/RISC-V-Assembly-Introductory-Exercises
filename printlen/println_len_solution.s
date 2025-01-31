@@ -60,9 +60,8 @@ ret
 
 ; -------- SOLUTION ----------
 
-// print_char function
-// Argumente:
-// a0: char (ASCII-Wert)
+// print_char helper
+// a0: char (ASCII value)
 
 print_char:
     li   a1, SERIAL_PORT_BASE           // load base address of serial port
