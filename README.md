@@ -25,6 +25,7 @@ The primary aim of this repository is to provide hands-on, practical exercises t
 | `jumptables` | medium| jumptables |
 | `printlen` | medium| load/store, strings|
 | `rec_fn` | medium| recursion|
+| `spongebob_case` | medium| load/store, strings, complex control flow|
 | `binary_search` | hard| load/store, complex control flow, recursion|
 | `binary_tree_max` | hard| load/store, trees, complex control flow, recursion|
 | `triangular_numbers` | hard| recursion|
