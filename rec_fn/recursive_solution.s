@@ -25,7 +25,7 @@ calc_Fn:
     sw a0, 0(sp)       ; Save argument
 
     li t0, 2
-    blt a0, t0, base_case  ; Check if n < 2 (base cases)
+    bltu a0, t0, base_case  ; Check if n < 2 (base cases)
 
     addi a0, a0, -2    ; n = n - 2 for recursive call
     jal ra, calc_Fn    ; Recursive call with n - 2
