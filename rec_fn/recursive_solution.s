@@ -38,7 +38,8 @@ calc_Fn:
 
 base_case:
     li a0, 3           ; F_0 = 3
-    beq a1, zero, end  ; If n = 0, F_n = 3
+    lw t0, 0(sp) 
+    beq t0, zero, end  ; If n = 0, F_n = 3
     li a0, 5           ; F_1 = 5
 
 end:
