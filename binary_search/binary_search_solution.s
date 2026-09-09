@@ -14,7 +14,7 @@ _start:
     jal ra, binary_search
     ebreak
 
-# Function decimal_to_binary
+# Function binary_search
 # Input:    a0 - Value to find
 #           a1 - Start address of search interval
 #           a2 - End address of search interval

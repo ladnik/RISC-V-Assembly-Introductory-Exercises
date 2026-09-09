@@ -4,7 +4,7 @@
 
 .bss   
     binary_array:
-        .byte 32
+        .space 32
 
 .org 0x200
 .text

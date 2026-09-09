@@ -4,7 +4,7 @@
 
 .bss   
     binary_array:
-        .byte 32
+        .space 32
 
 .org 0x200
 .text
@@ -46,7 +46,7 @@ decimal_to_binary:
     addi t2, t2, -1     ; backwards moving pointer
 
     swap_loop:
-        beq t1, t2, end ; break if forward ptr == back ptr, i.e. we have reached the middle of the array
+        bge t1, t2, end ; break if forward ptr >= back ptr, i.e. we have reached (or crossed) the middle of the array
 
         ; swap
         lb t3, 0(t1)

@@ -9,7 +9,7 @@ A description of the algorithm can be found [here](https://en.wikipedia.org/wiki
 ## Details
 
 ### Input
-- `a0`: Pointer to starting adress of the array to sort (each entry is 1 byte)
+- `a0`: Pointer to starting address of the array to sort (each entry is 1 byte)
 - `a1`: Length of array
 
 ### Output
